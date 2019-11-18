@@ -1,0 +1,3 @@
+The trie strategy is faster as the levels of the tree is less.
+There are at most two children of the node of the tree, but there are more (about 26 or sometime 52) children for the node in trie structure.
+The time of check on word in tree is about O(log2-N), while the trie is about O(log26-N).
